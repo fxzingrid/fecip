@@ -1,0 +1,158 @@
+!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<script type="text/javascript">
+	var imagens = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png", "7.png", "8.png", "9.png"];
+	var imagematual = 0;
+
+	function trocaimagem() {
+ 		imagematual = (imagematual + 1) % 9;
+	document.querySelector('.gif img'). src = imagens[imagematual];
+	}
+	setInterval(trocaimagem, 1900);	
+</script>
+
+<style type="text/css">
+	.gif {
+       text-align: center;
+       padding: 10px;
+       margin: auto;
+	}
+	.fundo{
+		background-image:url(fundo.jpg);
+		background-position: top;
+		background-repeat: no-repeat;
+	}
+	.content-center{
+			width: 2000px;
+			height: 2500px;
+			background-color: #fff/
+			margin-left: auto;
+			margin-right: auto;
+			padding: 4em;
+	}
+</style>
+
+<style type="text/css">
+	nav ul ul {
+    display: none;
+    text-align: justify-all;
+    
+    }
+    nav ul li:hover > ul {
+    display: block;
+    }
+    nav {
+    margin: auto;
+    text-align: justify-all;
+
+        
+    }
+    nav ul {
+        box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+        padding: 0 15px;
+        list-style: none;
+        position: relative;
+        display: block;
+        text-align: center;
+        font-size: 20px;
+        font-family: Tahoma;
+    }
+        nav ul:after {
+            content: ""; 
+            clear: both; 
+            display: block;
+        }
+
+    nav ul li {
+            float: left;
+            margin-top: unset;
+        
+
+        }
+            nav ul li:hover {
+                background: #5AAE7A;
+            }
+                nav ul li:hover a {
+                    color: #fff;
+                }
+            
+            nav ul li a {
+                display: block;
+                padding: 10px 40px;
+                color: #757575; 
+                text-decoration: none;
+                margin: auto;
+
+            }
+
+    nav ul ul {
+            background: #f7f7f7; 
+            border-radius: 0px;
+            padding: 0;
+            position: absolute;
+            top: 100%;
+            text-align: justify-all;
+            margin: auto;
+        }
+            nav ul ul li {
+                background-color: #5AAE7A;
+                float: none; 
+                border-top: 0px solid #ffcc00   ;
+                border-bottom: 0px solid #000   ; 
+                position: relative;
+                
+
+            }
+                nav ul ul li a {
+                    padding: 10px 40px;
+                    color: #5AAE7A;
+                    text-align: left;
+                    margin: auto;
+                
+                }   
+                    nav ul ul li a:hover {
+                        background: #5AAE7A;
+                        color : #ffcc00 ;
+                        position: center;
+                    }
+</style>
+<body >
+<div class="content-center">
+<div class="fundo">
+<nav >
+<br><br><br><br><br><br><br><br><br><br><br><br>
+     <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="produto.html">Produtos</a></li>
+     <li><a href="#">Redes socias</a></li>
+     <li><a href="#">A empresa</a>
+    <ul>
+     <li><a href="#">Quem somos</a></li>
+     <li><a href="#">Fale conosco</a></li>
+     <li><a href="#">Localização</a>
+     </ul>
+     </li>
+     </ul>
+     </li>
+    </nav>
+<br><br><br><br><br><br>
+	<section>
+       <figure class="gif">
+            <a href="rodape.html"><img src="css/img/1.gif"></a>
+            <a href="rodape.html"><img src="css/img/2.gif"></a>
+            <a href="rodape.html"><img src="css/img/3.gif"></a>
+            <a href="rodape.html"><img src="css/img/4.gif"></a>
+            <a href="rodape.html"><img src="css/img/5.gif"></a>
+            <a href="rodape.html"><img src="css/img/6.gif"></a>
+            <a href="rodape.html"><img src="css/img/7.gif"></a>
+            <a href="rodape.html"><img src="css/img/8.gif"></a>
+            <a href="rodape.html"><img src="css/img/9.gif"></a>
+       </figure> 
+ </section>
+</div>
+</div>
+</body>
+</html>
